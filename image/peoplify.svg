@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100px" height="100px" viewBox="0 0 100 100" version="1.1">
+<defs>
+<image id="image6" width="120" height="120" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAIAAAC2BqGFAAAABmJLR0QA/wD/AP+gvaeTAAABQElEQVR4nO3SsQ3CQAAEQYxozxFN0JHJIXMNDmiAbsip4ZN5IXYqOK1u+bwfp1+zXm+zJww7zx7wLwqNFBopNFJopNBIoZFCI4VGCo0UGik0Umik0EihkUIjhUYKjRQaKTRSaKTQSKGRQiOFRgqNFBopNFJopNBIoZFCI4VGCo0UGik0Umik0EihkUIjhUYKjRQaKTRSaKTQSKGRQiOFRgqNFBopNFJopNBIoZFCI4VGCo0UGrk879vsDcOO/TV7wrAejRQaKTRSaKTQSKGRQiOFRgqNFBopNFJopNBIoZFCI4VGCo0UGik0Umik0EihkUIjhUYKjRQaKTRSaKTQSKGRQiOFRgqNFBopNFJopNBIoZFCI4VGCo0UGik0Umik0EihkUIjhUYKjRQaKTRSaKTQSKGRQiOFRgqNFBopNPIFDaQIXObVxXIAAAAASUVORK5CYII="/>
+<clipPath id="clip1">
+  <rect x="0" y="0" width="100" height="100"/>
+</clipPath>
+<g id="surface7" clip-path="url(#clip1)">
+<use xlink:href="#image6" transform="matrix(0.833333,0,0,0.833333,0,0)"/>
+</g>
+<pattern id="pattern0" patternUnits="userSpaceOnUse" width="100" height="100">
+<use xlink:href="#surface7"/>
+</pattern>
+</defs>
+<g id="surface2">
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#pattern0);" d="M 13.332031 0 L 86.667969 0 C 94.03125 0 100 5.96875 100 13.332031 L 100 86.667969 C 100 94.03125 94.03125 100 86.667969 100 L 13.332031 100 C 5.96875 100 0 94.03125 0 86.667969 L 0 13.332031 C 0 5.96875 5.96875 0 13.332031 0 Z M 13.332031 0 "/>
+</g>
+</svg>

@@ -169,28 +169,50 @@ a:focus {
 .summary-paragraph {
     font-size: 16pt !important;
 }
-.experience {
+.suspended {
+    display: flex;
+    width: 300 !important;
+}
+.box {
     width: 600 !important;
 }
-.experience h3{
+.box img {
+    margin-left: 5px;
+    margin-bottom: 24px;
+    height: 100px;
+}
+.suspended img {
+    margin-left: 5px;
+    margin-bottom: 24px;
+    height: 100px;
+}
+.suspended-img {
+    margin-bottom: 0;
+    width: 300px;
+    height: auto !important;
+}
+.box h3{
     width: 500 !important;
 }
-.experience-wrapper{
+.suspended h3{
+    width: 300 !important;
+}
+.box-wrapper{
     padding-left: 5px;
 }
-.experience-wrapper h4{
+.box-wrapper h4{
     display: inline-block;
     font-size: 19pt;
     padding: 5px 0;
 }
-.experience-wrapper h5{
+.box-wrapper h5{
     font-size: 12pt;
     padding: 15px 0;
 }
-.experience-wrapper h6{
+.box-wrapper h6{
     font-size: 12pt;
 }
-.experience-wrapper p{
+.box-wrapper p{
     font-size: 19pt;
     padding-top: 15px;
 }
@@ -200,7 +222,45 @@ a:focus {
 .text-left{
     text-align: left;
 }
-
+.slang-wrapper {
+    position: relative;
+}
+.slang-wrapper img {
+    position: absolute;
+    left: 250px;
+    top: 100px;
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+.slang-wrapper h4 span {
+    background: #000;
+    color: #fff;
+    padding: 5px 15px;
+}
+.slang-wrapper h6 {
+    font-size: 12px;
+}
+.about-me {
+    display: flex;
+    gap: 32px;
+}
+.about-me img {
+    width: 300px;
+}
+.contact-info img {
+    width: 32px;
+    height: 32px;
+}
+.download {
+    display: flex;
+    gap: 64px;
+}
+.download img {
+    color: #fff;
+    width: 64px;
+    cursor: pointer;
+}
 /*
     ... and we enhance the styles for impress.js.
 
